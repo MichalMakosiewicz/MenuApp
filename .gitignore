@@ -8,3 +8,5 @@
 /menuapp_frontend/build/
 /menuapp_frontend/.idea/
 /menu/migrations/
+
+*/__pycache__/

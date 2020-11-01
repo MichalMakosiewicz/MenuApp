@@ -1,0 +1,10 @@
+*/node_modules/
+
+/build/
+
+/.idea/
+
+/venv-a/
+/menuapp_frontend/build/
+/menuapp_frontend/.idea/
+/menu/migrations/

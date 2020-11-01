@@ -1,0 +1,18 @@
+.root {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.MuiCardContent-root{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.title {
+    font-size: 23px;
+}
+
+.pos {
+    margin-bottom: 12px;
+}

@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'menu',
     'corsheaders',
-    'django_nose',
 ]
 
 MIDDLEWARE = [
@@ -55,12 +54,6 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'menuapp_backend.urls'
 
-TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
-
-NOSE_ARGS = [
-    '--with-coverage',
-    '--cover-package=menu',
-]
 
 TEMPLATES = [
     {

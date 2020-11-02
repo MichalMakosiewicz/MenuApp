@@ -16,7 +16,7 @@
 
 - in root dir create venv `py -m venv {name}`
 - Activate venv `{name}/Scripts/activate.bat`
-- install reqirements `pip install -r requirements.txt`
+- install requirements `pip install -r requirements.txt`
 - run server `python manage.py runserver`
 - go to `http://127.0.0.1:8000/`
 

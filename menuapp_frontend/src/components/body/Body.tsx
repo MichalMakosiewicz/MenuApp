@@ -14,7 +14,7 @@ export function Body() {
     const [open, setOpen] = useState(false);
 
     useEffect(() => {
-        fetch('http:///127.0.0.1:8000/menu/cards/')
+        fetch('http:///127.0.0.1:8000/menu/api/cards/')
             .then(response => response.json())
             .then(data => {
                 const cards = data.map((card: any) => new CardModel(card));
@@ -24,7 +24,7 @@ export function Body() {
                     cardsDishAmount[card.id] = card.dish.length;
                 })
             })
-        fetch('http:///127.0.0.1:8000/menu/dishes/')
+        fetch('http:///127.0.0.1:8000/menu/api/dishes/')
             .then(response => response.json())
             .then(data => {
                 const dishes = data.map((dish: any) => new DishModel(dish));

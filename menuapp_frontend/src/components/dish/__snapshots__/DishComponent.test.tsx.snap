@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar test match the snapshot 1`] = `
+<div>
+  <div
+    className="MuiPaper-root MuiCard-root root MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <div
+      className="MuiCardContent-root"
+    >
+      <div
+        className="title"
+      >
+        <h5
+          className="MuiTypography-root title MuiTypography-h5 MuiTypography-gutterBottom"
+        >
+          test
+        </h5>
+        <div
+          className="vegan-text"
+        >
+          VEGAN
+        </div>
+      </div>
+      <h1
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        test
+      </h1>
+      <img
+        src="test"
+      />
+      <div
+        className="create-update"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1"
+        >
+          creation date: 
+          test
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1"
+        >
+          update date: 
+          test
+        </p>
+      </div>
+      <div
+        className="price"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1"
+        >
+          preparation time: 
+          13
+           min
+        </p>
+        <h5
+          className="MuiTypography-root MuiTypography-h5"
+        >
+          12
+          ,-
+        </h5>
+      </div>
+    </div>
+  </div>
+</div>
+`;

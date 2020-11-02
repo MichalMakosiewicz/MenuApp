@@ -10,14 +10,14 @@ import {DishComponent} from '../dish/DishComponent';
 import "./CardComponent.css"
 
 interface CardPropsInterface {
-    card: CardModel;
+    card: any;
     dishes: DishModel[];
 }
 
 export function CardComponent(props: CardPropsInterface) {
     const {card, dishes} = props;
 
-    const cardDishes = card.dish.map((dish, index) => {
+    const cardDishes = card.dish.map((dish: number, index: string | number | null | undefined) => {
         if (!card.dish) {
             return [];
         }

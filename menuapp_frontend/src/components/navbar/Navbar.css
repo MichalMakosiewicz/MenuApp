@@ -6,6 +6,10 @@
     margin-Right: 20px,
 }
 
+.button {
+    margin-left: 30px;
+}
+
 .title {
-    flex-grow: 1,
+    flex-grow: 1;
 }

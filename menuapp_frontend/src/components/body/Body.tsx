@@ -7,7 +7,7 @@ import "./Body.css";
 import {Dialog} from "@material-ui/core";
 
 export function Body() {
-    const [selectedCard, setSelectedCard] = useState();
+    const [selectedCard, setSelectedCard] = useState<CardModel>();
     const [cards, setCards] = useState([]);
     const [dishes, setDishes] = useState<DishModel[]>([]);
     const [cardsDishAmount] = useState<any>({});
@@ -33,6 +33,7 @@ export function Body() {
     }, [])
 
     const openMenu = (rowData: RowParams) => {
+        // @ts-ignore
         setSelectedCard(rowData.data)
         setOpen(true);
     }

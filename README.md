@@ -10,7 +10,8 @@
 
 - cd to `menuapp_frontend`
 - run `npm install`
-- run `npm build`
+- run tests `npm run test`
+- run `npm run build`
 
 ### Run App
 
